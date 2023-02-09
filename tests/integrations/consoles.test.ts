@@ -2,8 +2,8 @@ import supertest from 'supertest';
 import httpStatus from 'http-status';
 
 import app from 'app';
-import { cleanDb } from './helpers';
-import { createConsole } from './factories/consoles.factory';
+import { cleanDb } from '../helpers';
+import { createConsole } from '../factories/consoles.factory';
 
 const server = supertest(app);
 
